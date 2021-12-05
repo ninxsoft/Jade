@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39967807275B76A900DEA4F9 /* UserNotificationCenterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39967806275B76A900DEA4F9 /* UserNotificationCenterDelegate.swift */; };
+		39967809275B77C400DEA4F9 /* UNNotificationCategory+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39967808275B77C400DEA4F9 /* UNNotificationCategory+Extension.swift */; };
+		3996780B275B784500DEA4F9 /* UNNotificationAction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996780A275B784500DEA4F9 /* UNNotificationAction+Extension.swift */; };
+		3996780D275B856400DEA4F9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996780C275B856400DEA4F9 /* ImageView.swift */; };
+		39A2D72427587CC2007D5DA6 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A2D72327587CC2007D5DA6 /* Keychain.swift */; };
+		39A2D72727587F8F007D5DA6 /* CredentialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A2D72627587F8F007D5DA6 /* CredentialsView.swift */; };
+		39A2D72F27588A3B007D5DA6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A2D72E27588A3B007D5DA6 /* WebView.swift */; };
+		39EF6AEB27545D6500044D12 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6AEA27545D6500044D12 /* DetailView.swift */; };
+		39EF6AED27545DB900044D12 /* SidebarRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6AEC27545DB900044D12 /* SidebarRowView.swift */; };
+		39EF6AEF27545F6900044D12 /* DetailRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6AEE27545F6900044D12 /* DetailRowView.swift */; };
+		39EF6AF12754706A00044D12 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6AF02754706A00044D12 /* TagView.swift */; };
+		39EF6AF3275471D400044D12 /* DetailRowReleaseNotesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6AF2275471D400044D12 /* DetailRowReleaseNotesButton.swift */; };
+		39EF6AF5275475D200044D12 /* DetailRowRefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6AF4275475D200044D12 /* DetailRowRefreshButton.swift */; };
+		39EF6AF92754776300044D12 /* DownloadLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6AF82754776300044D12 /* DownloadLink.swift */; };
+		39EF6AFB27547FF500044D12 /* DetailRowDownloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6AFA27547FF500044D12 /* DetailRowDownloadButton.swift */; };
+		39EF6AFF2754934D00044D12 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6AFE2754934D00044D12 /* RefreshView.swift */; };
+		39EF6B012754958E00044D12 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6B002754958E00044D12 /* DetailHeaderView.swift */; };
+		39EF6B0327549D6200044D12 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EF6B0227549D6200044D12 /* DownloadView.swift */; };
+		39F1BC332754447B007DA9F3 /* JadeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1BC322754447B007DA9F3 /* JadeApp.swift */; };
+		39F1BC352754447B007DA9F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1BC342754447B007DA9F3 /* ContentView.swift */; };
+		39F1BC372754447C007DA9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F1BC362754447C007DA9F3 /* Assets.xcassets */; };
+		39F1BC4527544780007DA9F3 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1BC4427544780007DA9F3 /* AppCommands.swift */; };
+		39F1BC47275447BA007DA9F3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1BC46275447BA007DA9F3 /* String+Extension.swift */; };
+		39F1BC4A27544822007DA9F3 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1BC4927544822007DA9F3 /* Product.swift */; };
+		39F1BC4D27544D9A007DA9F3 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1BC4C27544D9A007DA9F3 /* ProductType.swift */; };
+		39F1BC4F27544FD3007DA9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F1BC4E27544FD3007DA9F3 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39967806275B76A900DEA4F9 /* UserNotificationCenterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationCenterDelegate.swift; sourceTree = "<group>"; };
+		39967808275B77C400DEA4F9 /* UNNotificationCategory+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UNNotificationCategory+Extension.swift"; sourceTree = "<group>"; };
+		3996780A275B784500DEA4F9 /* UNNotificationAction+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UNNotificationAction+Extension.swift"; sourceTree = "<group>"; };
+		3996780C275B856400DEA4F9 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		39A2D72327587CC2007D5DA6 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		39A2D72627587F8F007D5DA6 /* CredentialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsView.swift; sourceTree = "<group>"; };
+		39A2D72E27588A3B007D5DA6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		39A2D7302758926D007D5DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		39EF6AEA27545D6500044D12 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		39EF6AEC27545DB900044D12 /* SidebarRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarRowView.swift; sourceTree = "<group>"; };
+		39EF6AEE27545F6900044D12 /* DetailRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowView.swift; sourceTree = "<group>"; };
+		39EF6AF02754706A00044D12 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		39EF6AF2275471D400044D12 /* DetailRowReleaseNotesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowReleaseNotesButton.swift; sourceTree = "<group>"; };
+		39EF6AF4275475D200044D12 /* DetailRowRefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowRefreshButton.swift; sourceTree = "<group>"; };
+		39EF6AF82754776300044D12 /* DownloadLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadLink.swift; sourceTree = "<group>"; };
+		39EF6AFA27547FF500044D12 /* DetailRowDownloadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRowDownloadButton.swift; sourceTree = "<group>"; };
+		39EF6AFE2754934D00044D12 /* RefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
+		39EF6B002754958E00044D12 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		39EF6B0227549D6200044D12 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		39F1BC2F2754447B007DA9F3 /* Jade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F1BC322754447B007DA9F3 /* JadeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JadeApp.swift; sourceTree = "<group>"; };
+		39F1BC342754447B007DA9F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39F1BC362754447C007DA9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39F1BC3B2754447C007DA9F3 /* Jade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jade.entitlements; sourceTree = "<group>"; };
+		39F1BC4427544780007DA9F3 /* AppCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommands.swift; sourceTree = "<group>"; };
+		39F1BC46275447BA007DA9F3 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		39F1BC4927544822007DA9F3 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		39F1BC4C27544D9A007DA9F3 /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
+		39F1BC4E27544FD3007DA9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F1BC2C2754447B007DA9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39220D42275C75FE002A120E /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				39EF6AEC27545DB900044D12 /* SidebarRowView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		39220D43275C7610002A120E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				39EF6AEA27545D6500044D12 /* DetailView.swift */,
+				39EF6B002754958E00044D12 /* DetailHeaderView.swift */,
+				39EF6AEE27545F6900044D12 /* DetailRowView.swift */,
+				39EF6AFA27547FF500044D12 /* DetailRowDownloadButton.swift */,
+				39EF6AF2275471D400044D12 /* DetailRowReleaseNotesButton.swift */,
+				39EF6AF4275475D200044D12 /* DetailRowRefreshButton.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		39220D44275C7629002A120E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				39EF6AF02754706A00044D12 /* TagView.swift */,
+				3996780C275B856400DEA4F9 /* ImageView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		39A2D72527587CDB007D5DA6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				39A2D72327587CC2007D5DA6 /* Keychain.swift */,
+				39967806275B76A900DEA4F9 /* UserNotificationCenterDelegate.swift */,
+				39A2D72E27588A3B007D5DA6 /* WebView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		39A2D72827587F94007D5DA6 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				39A2D72627587F8F007D5DA6 /* CredentialsView.swift */,
+				39EF6AFE2754934D00044D12 /* RefreshView.swift */,
+				39EF6B0227549D6200044D12 /* DownloadView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		39F1BC262754447B007DA9F3 = {
+			isa = PBXGroup;
+			children = (
+				39F1BC312754447B007DA9F3 /* Jade */,
+				39F1BC302754447B007DA9F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39F1BC302754447B007DA9F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F1BC2F2754447B007DA9F3 /* Jade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F1BC312754447B007DA9F3 /* Jade */ = {
+			isa = PBXGroup;
+			children = (
+				39F1BC362754447C007DA9F3 /* Assets.xcassets */,
+				39A2D7302758926D007D5DA6 /* Info.plist */,
+				39F1BC3B2754447C007DA9F3 /* Jade.entitlements */,
+				39F1BC4427544780007DA9F3 /* AppCommands.swift */,
+				39F1BC4E27544FD3007DA9F3 /* AppDelegate.swift */,
+				39F1BC322754447B007DA9F3 /* JadeApp.swift */,
+				39F1BC48275447E6007DA9F3 /* Extensions */,
+				39A2D72527587CDB007D5DA6 /* Helpers */,
+				39F1BC4B27544826007DA9F3 /* Model */,
+				39F1BC4327544764007DA9F3 /* Views */,
+			);
+			path = Jade;
+			sourceTree = "<group>";
+		};
+		39F1BC4327544764007DA9F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39F1BC342754447B007DA9F3 /* ContentView.swift */,
+				39220D44275C7629002A120E /* Common */,
+				39A2D72827587F94007D5DA6 /* Sheets */,
+				39220D42275C75FE002A120E /* Sidebar */,
+				39220D43275C7610002A120E /* Detail */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39F1BC48275447E6007DA9F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				39F1BC46275447BA007DA9F3 /* String+Extension.swift */,
+				3996780A275B784500DEA4F9 /* UNNotificationAction+Extension.swift */,
+				39967808275B77C400DEA4F9 /* UNNotificationCategory+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		39F1BC4B27544826007DA9F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39F1BC4927544822007DA9F3 /* Product.swift */,
+				39F1BC4C27544D9A007DA9F3 /* ProductType.swift */,
+				39EF6AF82754776300044D12 /* DownloadLink.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F1BC2E2754447B007DA9F3 /* Jade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F1BC3E2754447C007DA9F3 /* Build configuration list for PBXNativeTarget "Jade" */;
+			buildPhases = (
+				39F1BC2B2754447B007DA9F3 /* Sources */,
+				39F1BC2C2754447B007DA9F3 /* Frameworks */,
+				39F1BC2D2754447B007DA9F3 /* Resources */,
+				39F1BC4127544636007DA9F3 /* Run SwiftLint */,
+				39F1BC4227544637007DA9F3 /* Run DrString */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jade;
+			productName = Jade;
+			productReference = 39F1BC2F2754447B007DA9F3 /* Jade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39F1BC272754447B007DA9F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					39F1BC2E2754447B007DA9F3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 39F1BC2A2754447B007DA9F3 /* Build configuration list for PBXProject "Jade" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39F1BC262754447B007DA9F3;
+			productRefGroup = 39F1BC302754447B007DA9F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F1BC2E2754447B007DA9F3 /* Jade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F1BC2D2754447B007DA9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F1BC372754447C007DA9F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39F1BC4127544636007DA9F3 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/bin/env bash";
+			shellScript = "if which swiftlint > /dev/null ; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\nexit 0\n";
+		};
+		39F1BC4227544637007DA9F3 /* Run DrString */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run DrString";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/bin/env bash";
+			shellScript = "if which drstring > /dev/null ; then\n  drstring check --config-file \"$SRCROOT/.drstring.toml\" || true\nelse\n  echo \"warning: DrString not installed, download from https://github.com/dduan/DrString\"\nfi\n\nexit 0\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F1BC2B2754447B007DA9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996780D275B856400DEA4F9 /* ImageView.swift in Sources */,
+				39F1BC47275447BA007DA9F3 /* String+Extension.swift in Sources */,
+				39EF6AED27545DB900044D12 /* SidebarRowView.swift in Sources */,
+				39EF6AFB27547FF500044D12 /* DetailRowDownloadButton.swift in Sources */,
+				39EF6AF12754706A00044D12 /* TagView.swift in Sources */,
+				39EF6AF92754776300044D12 /* DownloadLink.swift in Sources */,
+				3996780B275B784500DEA4F9 /* UNNotificationAction+Extension.swift in Sources */,
+				39EF6AF3275471D400044D12 /* DetailRowReleaseNotesButton.swift in Sources */,
+				39967809275B77C400DEA4F9 /* UNNotificationCategory+Extension.swift in Sources */,
+				39EF6AFF2754934D00044D12 /* RefreshView.swift in Sources */,
+				39A2D72F27588A3B007D5DA6 /* WebView.swift in Sources */,
+				39EF6AEF27545F6900044D12 /* DetailRowView.swift in Sources */,
+				39A2D72427587CC2007D5DA6 /* Keychain.swift in Sources */,
+				39EF6B012754958E00044D12 /* DetailHeaderView.swift in Sources */,
+				39EF6AF5275475D200044D12 /* DetailRowRefreshButton.swift in Sources */,
+				39A2D72727587F8F007D5DA6 /* CredentialsView.swift in Sources */,
+				39EF6B0327549D6200044D12 /* DownloadView.swift in Sources */,
+				39EF6AEB27545D6500044D12 /* DetailView.swift in Sources */,
+				39F1BC4D27544D9A007DA9F3 /* ProductType.swift in Sources */,
+				39F1BC352754447B007DA9F3 /* ContentView.swift in Sources */,
+				39967807275B76A900DEA4F9 /* UserNotificationCenterDelegate.swift in Sources */,
+				39F1BC4A27544822007DA9F3 /* Product.swift in Sources */,
+				39F1BC4F27544FD3007DA9F3 /* AppDelegate.swift in Sources */,
+				39F1BC332754447B007DA9F3 /* JadeApp.swift in Sources */,
+				39F1BC4527544780007DA9F3 /* AppCommands.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39F1BC3C2754447C007DA9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39F1BC3D2754447C007DA9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		39F1BC3F2754447C007DA9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jade/Jade.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 200;
+				DEVELOPMENT_TEAM = 7K3HVCLV7Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jade/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninxsoft.jade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		39F1BC402754447C007DA9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jade/Jade.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 200;
+				DEVELOPMENT_TEAM = 7K3HVCLV7Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jade/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninxsoft.jade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39F1BC2A2754447B007DA9F3 /* Build configuration list for PBXProject "Jade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F1BC3C2754447C007DA9F3 /* Debug */,
+				39F1BC3D2754447C007DA9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F1BC3E2754447C007DA9F3 /* Build configuration list for PBXNativeTarget "Jade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F1BC3F2754447C007DA9F3 /* Debug */,
+				39F1BC402754447C007DA9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39F1BC272754447B007DA9F3 /* Project object */;
+}
