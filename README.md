@@ -57,7 +57,7 @@ Grab the latest version of **Jade** from the [releases page](https://github.com/
 
 * 2.0
   * Built from the ground-up using [Swift](https://developer.apple.com/swift/) and [SwiftUI](https://developer.apple.com/xcode/swiftui/)
-  * Leveraging Apple's shiny new [Swift Concurreny APIs](https://developer.apple.com/news/?id=2o3euotz)
+  * Leveraging Apple's shiny new [Swift Concurrency APIs](https://developer.apple.com/news/?id=2o3euotz)
 
 ## License
 
