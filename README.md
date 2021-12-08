@@ -47,7 +47,7 @@ A Mac utility to help download your Jamf Assets:
 
 Grab the latest version of **Jade** from the [releases page](https://github.com/ninxsoft/Jade/releases).
 
-**Note:** Check out [Jade-CLI](https://github.com/ninxsoft/Jade-CLI/releases) for the previous command-line version of Jade.
+**Note:** Check out [Jade-CLI](https://github.com/ninxsoft/Jade-CLI) for the previous command-line version of Jade.
 
 ## Credits / Thank You
 
